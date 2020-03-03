@@ -1,4 +1,4 @@
-/* * {
+ /* * {
   background-color: rgba(255, 0, 0, 0.2);
 }
 * * {
@@ -24,8 +24,10 @@
 }
 * * * * * * * * * {
   background-color: rgba(0, 0, 255, 0.2);
-} */
+}  */
 
+
+/* https://dev.to/gajus/my-favorite-css-hack-32g3 */
 html,
 body {
   /* width: 100%; */
