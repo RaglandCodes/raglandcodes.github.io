@@ -41,9 +41,10 @@ body {
   color: #212121;
 }
 
-
+:root {
+  --accent-colour: #004D40;
+}
 h1 {
-  
 
 font-size: 55px;
 
@@ -74,7 +75,7 @@ p {
   padding:0;
 }
 a{
-  color:#004D40;
+  color:var(--accent-colour);
   transition-property: background, color;
   
   transition-duration:300ms;
@@ -82,6 +83,6 @@ a{
 
 }
 a:hover{
-  background: #004D40;
+  background: var(--accent-colour);
   color: #EEEEEE;
 }
