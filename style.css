@@ -30,19 +30,18 @@
 /* https://dev.to/gajus/my-favorite-css-hack-32g3 */
 html,
 body {
-  /* width: 100%; */
   height: 100%;
   margin: 0;
-  /* padding: 0; */
   background-color: #f5f5f5;
   overflow-x: hidden;
   font-family: 'Fira Sans', sans-serif;
   padding: 0 10px;
   color: #212121;
+  font-size: 18px;
 }
 
 :root {
-  --accent-colour: #004D40;
+  --accent-colour: #212121;
 }
 h1 {
 
@@ -52,7 +51,7 @@ font-size: 55px;
   padding-bottom: 20px; 
 }
 h2 {
-  font-size: 33px;
+  font-size: 30px;
   padding-top: 15px;
   text-align: left;
 }
@@ -77,12 +76,12 @@ p {
 a{
   color:var(--accent-colour);
   transition-property: background, color;
-  
   transition-duration:300ms;
   transition-timing-function: ease-in;
 
 }
-a:hover{
+a:hover, a:active{
   background: var(--accent-colour);
   color: #EEEEEE;
+  text-decoration: none;
 }
